@@ -1,0 +1,14 @@
+
+CREATE TABLE Productor(
+id_usuario Integer NOT NULL,
+nombre varchar(50),
+apellidoP varchar(50),
+apellidoM varchar(50),
+direccion varchar(70),
+ubicacion varchar(50),	
+email varchar(30),
+PRIMARY KEY (id_usuario));
+
+INSERT INTO Productor(id_usuario, nombre, apellidoP, apellidoM, direccion, ubicacion, email) values
+(2, 'Rudolf', 'Ruesch', 'Ruesh', '5 de abril 998', 'km 7 camino a Bulnes', 'rudolf@vinoschillan.cl'),
+(5, 'Alberto', 'Herrera', 'Yevenes', 'Avenida Argentina 300', 'Portezuelo', 'albertoherrera@vinos.cl');
